@@ -1,0 +1,22 @@
+{
+  "_commento": "Configurazione Export Production Tracking v3.0",
+  "supabase": {
+    "url": "https://tcmqtwcbkowlmvvnrjbt.supabase.co",
+    "anon_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRjbXF0d2Nia293bG12dm5yamJ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5NzQ3NzQsImV4cCI6MjA5ODU1MDc3NH0.-pyWIhUjkAYtaaybo1tt7vpeFYWvdDlu1RNNhInETyM"
+  },
+  "export": {
+    "output_path": "C:\\NAS_Export",
+    "filename_prefix": "Export_Production_Tracking_",
+    "log_path": "C:\\NAS_Export\\logs",
+    "log_enabled": true
+  },
+  "aziendale": {
+    "_commento": "Opzionale: aggiorna DB aziendale XLS con ultimi avanzamenti",
+    "enabled": false,
+    "xls_path": "",
+    "colonna_ordine": "OdL",
+    "colonna_stato": "Ultimo_avanzamento",
+    "colonna_data": "Data_ultimo_avanzamento",
+    "colonna_reparto": "Reparto_corrente"
+  }
+}
